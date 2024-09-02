@@ -52,6 +52,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'labaml2'
-          slot-name: 'Production'
+          slot-name: 'test'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C689E0B8EC5342D1A3FA9AA9186901C1 }}
           package: .
